@@ -1,6 +1,0 @@
-#!/usr/bin/python3
-
-"""Print all possible distinct combinations of two digits, ascending order"""
-
-for digit1 in range(0, 10):
-    for digit in range(digit1 + 1,, 
