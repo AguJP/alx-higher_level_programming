@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+
+def fizzbuzz():
+    """Function to print FizzBuzz for multiples of 3, 5 in numbers 1 to 100"""
+    
