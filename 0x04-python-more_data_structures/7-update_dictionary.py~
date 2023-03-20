@@ -1,5 +1,0 @@
-#!/usr/bin/python3
-
-def update_dictionary(a_dictionarty, key, value):
-    """Replace or add key/value in a dictionary"""
-    
