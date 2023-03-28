@@ -3,9 +3,9 @@
 def safe_print_division(a, b):
     """Divide 2 integers and print result,exception for division by 0"""
     try:
-        quotient = a / b
+        div = a / b
     except (TypeError, ZeroDivisionError):
-        quotient = None
+        div = None
     finally:
-            print("Inside result: {}".format(quotient))
-    return (quotient)
+            print("Inside result: {}".format(div))
+    return (div)
