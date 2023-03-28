@@ -2,6 +2,7 @@
 
 import sys
 
+
 def safe_print_integer_err(value):
     """Prints an integer. Exception occurs if `value` is not integer"""
     try:
