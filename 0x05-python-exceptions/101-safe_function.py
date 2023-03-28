@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+import sys
+
 def safe_function(fct, *args):
     """Executes a function safely, returns the result of the function
     if successful, else an exception occurs"""
