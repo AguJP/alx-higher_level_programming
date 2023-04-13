@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 """Function to append a string to a textfile"""
+
+
 def append_write(filename="", text=""):
     """Append a string to a text file.
     Args:
@@ -10,4 +12,4 @@ def append_write(filename="", text=""):
         The no. of characters appended.
     """
     with open(filename, "a", encoding="utf-8")as f:
-        return f.append(text)
+        return f.write(text)
