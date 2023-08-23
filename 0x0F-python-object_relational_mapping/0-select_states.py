@@ -4,7 +4,6 @@ lists all states from the database hbtn_0e_0_usa:
 Arguments: mysql username, mysql password and database name (no argument validation needed)
 Usage: ./0-select_states.py <mysql username> <mysql password> <database name>
 """
-
 import sys
 import MySQLdb
 
