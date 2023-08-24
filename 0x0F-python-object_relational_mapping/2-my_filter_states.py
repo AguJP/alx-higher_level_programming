@@ -7,7 +7,7 @@ Usage: ./2-my_filter_states.py <mysql username> \
                                 <state name searched>
 """
 import sys
-import MySQLsb
+import MySQLdb
 
 if __name__ == "__main__":
     db = MySQLdb.connect(user=sys.argv[1], port=3306, host="localhost",
