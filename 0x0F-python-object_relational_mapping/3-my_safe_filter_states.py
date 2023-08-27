@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """
-Takes in arguments and displays all values in the states table of 
+Takes in arguments and displays all values in the states table of
 hbtn_0e_0_usa where name matches the argument. But this time, write
- one that is safe from MySQL injections!
+one that is safe from MySQL injections!
 Usage: ./3-my_safe_filter_states.py <mysql username> <mysql password>
 <database name> <state name searched>
 """
