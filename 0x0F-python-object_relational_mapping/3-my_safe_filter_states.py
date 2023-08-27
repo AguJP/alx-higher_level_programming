@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 """
-Takes in arguments and displays all values in the states table of
-hbtn_0e_0_usa where name matches the argument. But this time, write
-one that is safe from MySQL injections!
-Usage: ./3-my_safe_filter_states.py <mysql username> <mysql password>
-<database name> <state name searched>
+Displays all values in the states table of the database hbtn_0e_0_usa
+whose name matches that supplied as argument.
+Safe from SQL injections.
+Usage: ./3-my_safe_filter_states.py <mysql username> \
+                                    <mysql password> \
+                                    <database name> \
+                                    <state name searched>
 """
 import MySQLdb
 from sys import argv
