@@ -6,7 +6,7 @@
 if __name__ == "__main__":
     import requests
 
-    req = requests.get('https://alx-intranet.hbtn.io/status')
+    req = requests.get("https://alx-intranet.hbtn.io/status")
     disp = req.text
 
     print("Body response:")
