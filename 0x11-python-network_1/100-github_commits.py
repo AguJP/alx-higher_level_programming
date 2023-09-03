@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""list 10 commits (from most recent) of the repo “rails” by user “rails”
+"""list 10 most recent commits of the repo “rails” by user “rails”
 - Print all commits by: `<sha>: <author name>` (one by line)
 - argv[1] = repository name, argv[2] = owner name
 """
